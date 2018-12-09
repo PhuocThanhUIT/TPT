@@ -32,17 +32,13 @@
             this.txtNewPass = new System.Windows.Forms.TextBox();
             this.lblMatkhaumoi = new System.Windows.Forms.Label();
             this.btnSua = new System.Windows.Forms.Button();
-            this.btnXoa = new System.Windows.Forms.Button();
             this.lblTacvu = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.rdXoa = new System.Windows.Forms.RadioButton();
             this.rdDoiMatkhau = new System.Windows.Forms.RadioButton();
             this.rdTaoUser = new System.Windows.Forms.RadioButton();
             this.btnThoat = new System.Windows.Forms.Button();
-            this.btnThem = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnRefresh = new System.Windows.Forms.Button();
-            this.btnTim = new System.Windows.Forms.Button();
             this.txtTenTimKiem = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -53,6 +49,10 @@
             this.Username = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Password = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtUserName = new System.Windows.Forms.TextBox();
+            this.btnXoa = new System.Windows.Forms.Button();
+            this.btnThem = new System.Windows.Forms.Button();
+            this.btnRefresh = new System.Windows.Forms.Button();
+            this.btnTim = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -77,60 +77,56 @@
             this.groupBox1.Controls.Add(this.dgvUser);
             this.groupBox1.Controls.Add(this.txtUserName);
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(690, 520);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Size = new System.Drawing.Size(920, 640);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Quản lí tài khoản";
-         
             // 
             // txtNewPass
             // 
-            this.txtNewPass.Location = new System.Drawing.Point(227, 440);
+            this.txtNewPass.Location = new System.Drawing.Point(303, 542);
+            this.txtNewPass.Margin = new System.Windows.Forms.Padding(4);
             this.txtNewPass.Name = "txtNewPass";
             this.txtNewPass.PasswordChar = '*';
-            this.txtNewPass.Size = new System.Drawing.Size(198, 20);
+            this.txtNewPass.Size = new System.Drawing.Size(263, 22);
             this.txtNewPass.TabIndex = 8;
             this.txtNewPass.Visible = false;
             // 
             // lblMatkhaumoi
             // 
             this.lblMatkhaumoi.AutoSize = true;
-            this.lblMatkhaumoi.Location = new System.Drawing.Point(109, 443);
+            this.lblMatkhaumoi.Location = new System.Drawing.Point(145, 545);
+            this.lblMatkhaumoi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMatkhaumoi.Name = "lblMatkhaumoi";
-            this.lblMatkhaumoi.Size = new System.Drawing.Size(102, 13);
+            this.lblMatkhaumoi.Size = new System.Drawing.Size(134, 17);
             this.lblMatkhaumoi.TabIndex = 14;
             this.lblMatkhaumoi.Text = "Nhập mật khẩu mới:";
             this.lblMatkhaumoi.Visible = false;
             // 
             // btnSua
             // 
-            this.btnSua.Location = new System.Drawing.Point(477, 420);
+            this.btnSua.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.refresh_48;
+            this.btnSua.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnSua.Location = new System.Drawing.Point(636, 517);
+            this.btnSua.Margin = new System.Windows.Forms.Padding(4);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(75, 43);
+            this.btnSua.Size = new System.Drawing.Size(100, 53);
             this.btnSua.TabIndex = 10;
-            this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
             this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
-            // 
-            // btnXoa
-            // 
-            this.btnXoa.Location = new System.Drawing.Point(572, 370);
-            this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(75, 44);
-            this.btnXoa.TabIndex = 11;
-            this.btnXoa.Text = "Xóa";
-            this.btnXoa.UseVisualStyleBackColor = true;
-            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // lblTacvu
             // 
             this.lblTacvu.AutoSize = true;
             this.lblTacvu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTacvu.ForeColor = System.Drawing.Color.Maroon;
-            this.lblTacvu.Location = new System.Drawing.Point(250, 333);
+            this.lblTacvu.Location = new System.Drawing.Point(333, 410);
+            this.lblTacvu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTacvu.Name = "lblTacvu";
-            this.lblTacvu.Size = new System.Drawing.Size(51, 20);
+            this.lblTacvu.Size = new System.Drawing.Size(64, 25);
             this.lblTacvu.TabIndex = 11;
             this.lblTacvu.Text = "label4";
             // 
@@ -140,10 +136,12 @@
             this.groupBox3.Controls.Add(this.rdDoiMatkhau);
             this.groupBox3.Controls.Add(this.rdTaoUser);
             this.groupBox3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.groupBox3.Location = new System.Drawing.Point(81, 266);
+            this.groupBox3.Location = new System.Drawing.Point(108, 327);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.groupBox3.Size = new System.Drawing.Size(521, 53);
+            this.groupBox3.Size = new System.Drawing.Size(695, 65);
             this.groupBox3.TabIndex = 10;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Chọn tác vụ";
@@ -151,9 +149,10 @@
             // rdXoa
             // 
             this.rdXoa.AutoSize = true;
-            this.rdXoa.Location = new System.Drawing.Point(399, 22);
+            this.rdXoa.Location = new System.Drawing.Point(532, 27);
+            this.rdXoa.Margin = new System.Windows.Forms.Padding(4);
             this.rdXoa.Name = "rdXoa";
-            this.rdXoa.Size = new System.Drawing.Size(69, 17);
+            this.rdXoa.Size = new System.Drawing.Size(88, 21);
             this.rdXoa.TabIndex = 5;
             this.rdXoa.Text = "Xóa User";
             this.rdXoa.UseVisualStyleBackColor = true;
@@ -162,9 +161,10 @@
             // rdDoiMatkhau
             // 
             this.rdDoiMatkhau.AutoSize = true;
-            this.rdDoiMatkhau.Location = new System.Drawing.Point(217, 22);
+            this.rdDoiMatkhau.Location = new System.Drawing.Point(289, 27);
+            this.rdDoiMatkhau.Margin = new System.Windows.Forms.Padding(4);
             this.rdDoiMatkhau.Name = "rdDoiMatkhau";
-            this.rdDoiMatkhau.Size = new System.Drawing.Size(88, 17);
+            this.rdDoiMatkhau.Size = new System.Drawing.Size(112, 21);
             this.rdDoiMatkhau.TabIndex = 4;
             this.rdDoiMatkhau.Text = "Đổi mật khẩu";
             this.rdDoiMatkhau.UseVisualStyleBackColor = true;
@@ -174,9 +174,10 @@
             // 
             this.rdTaoUser.AutoSize = true;
             this.rdTaoUser.Checked = true;
-            this.rdTaoUser.Location = new System.Drawing.Point(42, 22);
+            this.rdTaoUser.Location = new System.Drawing.Point(56, 27);
+            this.rdTaoUser.Margin = new System.Windows.Forms.Padding(4);
             this.rdTaoUser.Name = "rdTaoUser";
-            this.rdTaoUser.Size = new System.Drawing.Size(69, 17);
+            this.rdTaoUser.Size = new System.Drawing.Size(88, 21);
             this.rdTaoUser.TabIndex = 3;
             this.rdTaoUser.TabStop = true;
             this.rdTaoUser.Text = "Tạo User";
@@ -185,23 +186,15 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(572, 420);
+            this.btnThoat.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.exit;
+            this.btnThoat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnThoat.Location = new System.Drawing.Point(763, 517);
+            this.btnThoat.Margin = new System.Windows.Forms.Padding(4);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(75, 43);
+            this.btnThoat.Size = new System.Drawing.Size(100, 53);
             this.btnThoat.TabIndex = 12;
-            this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
-            // 
-            // btnThem
-            // 
-            this.btnThem.Location = new System.Drawing.Point(477, 370);
-            this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(75, 44);
-            this.btnThem.TabIndex = 9;
-            this.btnThem.Text = "Thêm";
-            this.btnThem.UseVisualStyleBackColor = true;
-            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // groupBox2
             // 
@@ -209,71 +202,58 @@
             this.groupBox2.Controls.Add(this.btnTim);
             this.groupBox2.Controls.Add(this.txtTenTimKiem);
             this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Location = new System.Drawing.Point(23, 21);
+            this.groupBox2.Location = new System.Drawing.Point(31, 26);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(643, 66);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox2.Size = new System.Drawing.Size(857, 81);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Tìm kiếm User";
             // 
-            // btnRefresh
-            // 
-            this.btnRefresh.Location = new System.Drawing.Point(549, 16);
-            this.btnRefresh.Margin = new System.Windows.Forms.Padding(0);
-            this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(49, 41);
-            this.btnRefresh.TabIndex = 2;
-            this.btnRefresh.UseVisualStyleBackColor = true;
-            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
-            // 
-            // btnTim
-            // 
-            this.btnTim.Location = new System.Drawing.Point(457, 16);
-            this.btnTim.Name = "btnTim";
-            this.btnTim.Size = new System.Drawing.Size(69, 41);
-            this.btnTim.TabIndex = 1;
-            this.btnTim.Text = "Tìm kiếm";
-            this.btnTim.UseVisualStyleBackColor = true;
-            this.btnTim.Click += new System.EventHandler(this.btnTim_Click);
-            // 
             // txtTenTimKiem
             // 
-            this.txtTenTimKiem.Location = new System.Drawing.Point(135, 28);
+            this.txtTenTimKiem.Location = new System.Drawing.Point(180, 34);
+            this.txtTenTimKiem.Margin = new System.Windows.Forms.Padding(4);
             this.txtTenTimKiem.Name = "txtTenTimKiem";
-            this.txtTenTimKiem.Size = new System.Drawing.Size(290, 20);
+            this.txtTenTimKiem.Size = new System.Drawing.Size(385, 22);
             this.txtTenTimKiem.TabIndex = 0;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(40, 31);
+            this.label3.Location = new System.Drawing.Point(53, 38);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(88, 13);
+            this.label3.Size = new System.Drawing.Size(116, 17);
             this.label3.TabIndex = 0;
             this.label3.Text = "Tên người dùng: ";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(109, 376);
+            this.label1.Location = new System.Drawing.Point(145, 463);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 13);
+            this.label1.Size = new System.Drawing.Size(77, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Username:";
             // 
             // txtPass
             // 
-            this.txtPass.Location = new System.Drawing.Point(227, 406);
+            this.txtPass.Location = new System.Drawing.Point(303, 500);
+            this.txtPass.Margin = new System.Windows.Forms.Padding(4);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '*';
-            this.txtPass.Size = new System.Drawing.Size(198, 20);
+            this.txtPass.Size = new System.Drawing.Size(263, 22);
             this.txtPass.TabIndex = 7;
             // 
             // d
             // 
-            this.d.Location = new System.Drawing.Point(233, 571);
+            this.d.Location = new System.Drawing.Point(311, 703);
+            this.d.Margin = new System.Windows.Forms.Padding(4);
             this.d.Name = "d";
-            this.d.Size = new System.Drawing.Size(75, 23);
+            this.d.Size = new System.Drawing.Size(100, 28);
             this.d.TabIndex = 4;
             this.d.Text = "Thêm";
             this.d.UseVisualStyleBackColor = true;
@@ -282,9 +262,10 @@
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
-            this.lblPassword.Location = new System.Drawing.Point(109, 409);
+            this.lblPassword.Location = new System.Drawing.Point(145, 503);
+            this.lblPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(56, 13);
+            this.lblPassword.Size = new System.Drawing.Size(73, 17);
             this.lblPassword.TabIndex = 1;
             this.lblPassword.Text = "Password:";
             // 
@@ -294,9 +275,10 @@
             this.dgvUser.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Username,
             this.Password});
-            this.dgvUser.Location = new System.Drawing.Point(23, 112);
+            this.dgvUser.Location = new System.Drawing.Point(31, 138);
+            this.dgvUser.Margin = new System.Windows.Forms.Padding(4);
             this.dgvUser.Name = "dgvUser";
-            this.dgvUser.Size = new System.Drawing.Size(643, 129);
+            this.dgvUser.Size = new System.Drawing.Size(857, 159);
             this.dgvUser.TabIndex = 2;
             this.dgvUser.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvUser_CellClick);
             // 
@@ -305,6 +287,7 @@
             this.Username.DataPropertyName = "Username";
             this.Username.HeaderText = "Username";
             this.Username.Name = "Username";
+            this.Username.ReadOnly = true;
             this.Username.Width = 300;
             // 
             // Password
@@ -312,22 +295,73 @@
             this.Password.DataPropertyName = "Pass";
             this.Password.HeaderText = "Password";
             this.Password.Name = "Password";
+            this.Password.ReadOnly = true;
             this.Password.Width = 300;
             // 
             // txtUserName
             // 
-            this.txtUserName.Location = new System.Drawing.Point(227, 373);
+            this.txtUserName.Location = new System.Drawing.Point(303, 459);
+            this.txtUserName.Margin = new System.Windows.Forms.Padding(4);
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(198, 20);
+            this.txtUserName.Size = new System.Drawing.Size(263, 22);
             this.txtUserName.TabIndex = 6;
+            // 
+            // btnXoa
+            // 
+            this.btnXoa.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.delete1;
+            this.btnXoa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnXoa.Location = new System.Drawing.Point(763, 455);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(4);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(100, 54);
+            this.btnXoa.TabIndex = 11;
+            this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
+            // 
+            // btnThem
+            // 
+            this.btnThem.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.add1;
+            this.btnThem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnThem.Location = new System.Drawing.Point(636, 455);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(4);
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(100, 54);
+            this.btnThem.TabIndex = 9;
+            this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
+            // 
+            // btnRefresh
+            // 
+            this.btnRefresh.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.refresh_48;
+            this.btnRefresh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnRefresh.Location = new System.Drawing.Point(732, 20);
+            this.btnRefresh.Margin = new System.Windows.Forms.Padding(0);
+            this.btnRefresh.Name = "btnRefresh";
+            this.btnRefresh.Size = new System.Drawing.Size(66, 50);
+            this.btnRefresh.TabIndex = 2;
+            this.btnRefresh.UseVisualStyleBackColor = true;
+            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
+            // 
+            // btnTim
+            // 
+            this.btnTim.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.Search;
+            this.btnTim.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnTim.Location = new System.Drawing.Point(609, 20);
+            this.btnTim.Margin = new System.Windows.Forms.Padding(4);
+            this.btnTim.Name = "btnTim";
+            this.btnTim.Size = new System.Drawing.Size(92, 50);
+            this.btnTim.TabIndex = 1;
+            this.btnTim.UseVisualStyleBackColor = true;
+            this.btnTim.Click += new System.EventHandler(this.btnTim_Click);
             // 
             // uc_User
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "uc_User";
-            this.Size = new System.Drawing.Size(690, 520);
+            this.Size = new System.Drawing.Size(920, 640);
             this.Load += new System.EventHandler(this.uc_User_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -353,19 +387,19 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnTim;
         private System.Windows.Forms.TextBox txtTenTimKiem;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Username;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Password;
         private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.Button btnThoat;
         private System.Windows.Forms.RadioButton rdTaoUser;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.RadioButton rdXoa;
         private System.Windows.Forms.RadioButton rdDoiMatkhau;
-        private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Label lblTacvu;
         private System.Windows.Forms.TextBox txtNewPass;
         private System.Windows.Forms.Label lblMatkhaumoi;
         private System.Windows.Forms.Button btnRefresh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Username;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Password;
+        private System.Windows.Forms.Button btnSua;
     }
 }

@@ -35,7 +35,6 @@ namespace QLSV_Database
                     }
                 }
 
-
             }
             catch (Exception ex)
             {
@@ -47,14 +46,22 @@ namespace QLSV_Database
 
         public void CreateUser(string User, string pass)
         {
-            SqlParameter u = new SqlParameter();
-            SqlParameter p = new SqlParameter();
-            u.SqlValue = User;
-            p.SqlValue = pass;
-            u.ParameterName= "@Username";
-            p.ParameterName = "@Pass";
-         
-            cc.ThaoTacDuLieu("qlsv_AddNewUser", CommandType.StoredProcedure, u, p);
+            SqlParameter u = new SqlParameter();//user
+            SqlParameter p = new SqlParameter();//pass
+            if(User==""||pass=="")
+            {
+                MessageBox.Show("Mời nhập user và pass ");
+            }
+            else
+            {
+                u.SqlValue = User;
+                p.SqlValue = pass;
+                u.ParameterName = "@Username";
+                p.ParameterName = "@Pass";
+
+                cc.ThaoTacDuLieu("qlsv_AddNewUser", CommandType.StoredProcedure, u, p);
+            }
+           
           
             
         }

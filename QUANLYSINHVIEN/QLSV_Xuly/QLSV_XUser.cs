@@ -77,18 +77,31 @@ namespace QLSV_Xuly
             return Convert.ToBase64String(hash);
         }
 
+       
+
         public void CreateUser()
         {
-            if (qlsv_dUser.isExist(USER) == true)
+            if (this.USER == "")
             {
-                // throw new Exception("User này đã tồn tại");
-                MessageBox.Show("User này đã tồn tại");
+                MessageBox.Show("Chưa nhập Username");
             }
             else
             {
-                qlsv_dUser.CreateUser(USER, MahoaPass(PASS));
-                MessageBox.Show("Tạo tài khoản mới thành công");
+                if (qlsv_dUser.isExist(USER) == true)
+                {
+
+                    // throw new Exception("User này đã tồn tại");
+                    MessageBox.Show("User này đã tồn tại");
+                }
+
+                else
+                {
+                    qlsv_dUser.CreateUser(USER, MahoaPass(PASS));
+                    MessageBox.Show("Tạo tài khoản mới thành công");
+                }
             }
+            
+
         }
         public void DeleteUser()
         {
@@ -144,7 +157,7 @@ namespace QLSV_Xuly
         public bool Login()
         {
             bool kq = false;
-            if (qlsv_dUser.CheckUser(USER,MahoaPass(PASS)) == true)
+            if (qlsv_dUser.CheckUser(USER,PASS) == true)
             {
                 MessageBox.Show("Đăng nhập thành công");
                 kq = true;

@@ -13,3 +13,11 @@ D:\visual nha\QLSV\Code\QLSV_Database\obj\Debug\QLSV_Database.csproj.GenerateRes
 D:\visual nha\QLSV\Code\QLSV_Database\obj\Debug\QLSV_Database.csproj.CoreCompileInputs.cache
 D:\visual nha\QLSV\Code\QLSV_Database\obj\Debug\QLSV_Database.exe
 D:\visual nha\QLSV\Code\QLSV_Database\obj\Debug\QLSV_Database.pdb
+D:\visual nha\TPT\QUANLYSINHVIEN\QLSV_Database\bin\Debug\QLSV_Database.exe
+D:\visual nha\TPT\QUANLYSINHVIEN\QLSV_Database\bin\Debug\QLSV_Database.pdb
+D:\visual nha\TPT\QUANLYSINHVIEN\QLSV_Database\obj\Debug\QLSV_Database.csprojAssemblyReference.cache
+D:\visual nha\TPT\QUANLYSINHVIEN\QLSV_Database\obj\Debug\QLSV_GiaoDien.Properties.Resources.resources
+D:\visual nha\TPT\QUANLYSINHVIEN\QLSV_Database\obj\Debug\QLSV_Database.csproj.GenerateResource.cache
+D:\visual nha\TPT\QUANLYSINHVIEN\QLSV_Database\obj\Debug\QLSV_Database.csproj.CoreCompileInputs.cache
+D:\visual nha\TPT\QUANLYSINHVIEN\QLSV_Database\obj\Debug\QLSV_Database.exe
+D:\visual nha\TPT\QUANLYSINHVIEN\QLSV_Database\obj\Debug\QLSV_Database.pdb

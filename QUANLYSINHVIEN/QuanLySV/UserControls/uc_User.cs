@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using QLSV_Xuly;
 using QLSV_Database;
+
 namespace QLSV_GiaoDien
 {
     public partial class uc_User : UserControl

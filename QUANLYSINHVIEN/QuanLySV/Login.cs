@@ -18,7 +18,7 @@ namespace QLSV_GiaoDien
             InitializeComponent();
         }
        
-        QLSV_XUser xl_user = new QLSV_XUser();
+        QLSV_XUser xl_user = new QLSV_XUser();// thao tác xử lý đăng nhập 
         public delegate void EnableGroupbox(bool kq);
         public EnableGroupbox setGroupbox;
         private void btnLogin_Click(object sender, EventArgs e)
@@ -27,8 +27,11 @@ namespace QLSV_GiaoDien
          
             xl_user.USER = txtUser.Text;
             xl_user.PASS = txtPass.Text;
-            if (xl_user.Login() == true)
+
+
+            if (xl_user.Login() == true  )
             {
+                
                 setGroupbox(true);
                 this.Close();
             }

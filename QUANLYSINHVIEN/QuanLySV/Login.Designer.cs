@@ -40,6 +40,7 @@
             // btnCancel
             // 
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnCancel.Image = global::QLSV_GiaoDien.Properties.Resources.bg;
             this.btnCancel.Location = new System.Drawing.Point(311, 151);
             this.btnCancel.Margin = new System.Windows.Forms.Padding(4);
             this.btnCancel.Name = "btnCancel";
@@ -51,6 +52,7 @@
             // 
             // btnLogin
             // 
+            this.btnLogin.Image = global::QLSV_GiaoDien.Properties.Resources.bg;
             this.btnLogin.Location = new System.Drawing.Point(203, 151);
             this.btnLogin.Margin = new System.Windows.Forms.Padding(4);
             this.btnLogin.Name = "btnLogin";
@@ -128,6 +130,7 @@
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);

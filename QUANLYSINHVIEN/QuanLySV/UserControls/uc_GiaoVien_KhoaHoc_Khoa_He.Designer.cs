@@ -32,7 +32,6 @@
             this.tabGiaoVien = new System.Windows.Forms.TabPage();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.btnTim = new System.Windows.Forms.Button();
-            this.btnThoat = new System.Windows.Forms.Button();
             this.cmbDieuKienTim = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.txtThongTinTimKiem_GV = new System.Windows.Forms.TextBox();
@@ -65,7 +64,6 @@
             this.btnSua_Khoa = new System.Windows.Forms.DataGridViewButtonColumn();
             this.btnXoa_Khoa = new System.Windows.Forms.DataGridViewButtonColumn();
             this.groupboxKhoa = new System.Windows.Forms.GroupBox();
-            this.btnThoatKhoa = new System.Windows.Forms.Button();
             this.btnNhaplaiKhoa = new System.Windows.Forms.Button();
             this.btnThemKhoa = new System.Windows.Forms.Button();
             this.txtGhiChu_Khoa = new System.Windows.Forms.TextBox();
@@ -85,7 +83,6 @@
             this.btnSuaKhoaHoc = new System.Windows.Forms.DataGridViewButtonColumn();
             this.btnXoaKhoaHoc = new System.Windows.Forms.DataGridViewButtonColumn();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.btnThoatKhoaHoc = new System.Windows.Forms.Button();
             this.dtpNgayKetThuc = new System.Windows.Forms.DateTimePicker();
             this.dtpNgayBatDau = new System.Windows.Forms.DateTimePicker();
             this.label14 = new System.Windows.Forms.Label();
@@ -142,7 +139,7 @@
             this.tabGV_Khoa_KhoaHoc_He.Controls.Add(this.tabKhoaHoc);
             this.tabGV_Khoa_KhoaHoc_He.Controls.Add(this.tabHe);
             this.tabGV_Khoa_KhoaHoc_He.Location = new System.Drawing.Point(3, 2);
-            this.tabGV_Khoa_KhoaHoc_He.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabGV_Khoa_KhoaHoc_He.Margin = new System.Windows.Forms.Padding(4);
             this.tabGV_Khoa_KhoaHoc_He.Name = "tabGV_Khoa_KhoaHoc_He";
             this.tabGV_Khoa_KhoaHoc_He.SelectedIndex = 0;
             this.tabGV_Khoa_KhoaHoc_He.Size = new System.Drawing.Size(920, 640);
@@ -154,9 +151,9 @@
             this.tabGiaoVien.Controls.Add(this.groupBox2);
             this.tabGiaoVien.Controls.Add(this.groupboxGV);
             this.tabGiaoVien.Location = new System.Drawing.Point(4, 25);
-            this.tabGiaoVien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabGiaoVien.Margin = new System.Windows.Forms.Padding(4);
             this.tabGiaoVien.Name = "tabGiaoVien";
-            this.tabGiaoVien.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabGiaoVien.Padding = new System.Windows.Forms.Padding(4);
             this.tabGiaoVien.Size = new System.Drawing.Size(912, 611);
             this.tabGiaoVien.TabIndex = 0;
             this.tabGiaoVien.Text = "Giáo Viên";
@@ -165,15 +162,14 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.btnTim);
-            this.groupBox3.Controls.Add(this.btnThoat);
             this.groupBox3.Controls.Add(this.cmbDieuKienTim);
             this.groupBox3.Controls.Add(this.label6);
             this.groupBox3.Controls.Add(this.txtThongTinTimKiem_GV);
             this.groupBox3.Controls.Add(this.label4);
             this.groupBox3.Location = new System.Drawing.Point(413, 23);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox3.Size = new System.Drawing.Size(469, 250);
             this.groupBox3.TabIndex = 5;
             this.groupBox3.TabStop = false;
@@ -181,24 +177,15 @@
             // 
             // btnTim
             // 
-            this.btnTim.Location = new System.Drawing.Point(191, 123);
-            this.btnTim.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTim.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.Search;
+            this.btnTim.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnTim.Location = new System.Drawing.Point(289, 119);
+            this.btnTim.Margin = new System.Windows.Forms.Padding(4);
             this.btnTim.Name = "btnTim";
             this.btnTim.Size = new System.Drawing.Size(100, 63);
             this.btnTim.TabIndex = 4;
-            this.btnTim.Text = "Tìm";
             this.btnTim.UseVisualStyleBackColor = true;
             this.btnTim.Click += new System.EventHandler(this.btnTim_Click);
-            // 
-            // btnThoat
-            // 
-            this.btnThoat.Location = new System.Drawing.Point(341, 123);
-            this.btnThoat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(100, 63);
-            this.btnThoat.TabIndex = 4;
-            this.btnThoat.Text = "Thoát";
-            this.btnThoat.UseVisualStyleBackColor = true;
             // 
             // cmbDieuKienTim
             // 
@@ -207,7 +194,7 @@
             "Mã Giáo Viên",
             "Tên Giáo Viên"});
             this.cmbDieuKienTim.Location = new System.Drawing.Point(191, 34);
-            this.cmbDieuKienTim.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbDieuKienTim.Margin = new System.Windows.Forms.Padding(4);
             this.cmbDieuKienTim.Name = "cmbDieuKienTim";
             this.cmbDieuKienTim.Size = new System.Drawing.Size(249, 24);
             this.cmbDieuKienTim.TabIndex = 3;
@@ -227,7 +214,7 @@
             // txtThongTinTimKiem_GV
             // 
             this.txtThongTinTimKiem_GV.Location = new System.Drawing.Point(192, 75);
-            this.txtThongTinTimKiem_GV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtThongTinTimKiem_GV.Margin = new System.Windows.Forms.Padding(4);
             this.txtThongTinTimKiem_GV.Name = "txtThongTinTimKiem_GV";
             this.txtThongTinTimKiem_GV.Size = new System.Drawing.Size(249, 22);
             this.txtThongTinTimKiem_GV.TabIndex = 1;
@@ -246,9 +233,9 @@
             // 
             this.groupBox2.Controls.Add(this.dgvGiaoVien);
             this.groupBox2.Location = new System.Drawing.Point(8, 318);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(875, 271);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
@@ -265,7 +252,7 @@
             this.btnsua_GV,
             this.btnXoa_Gv});
             this.dgvGiaoVien.Location = new System.Drawing.Point(8, 23);
-            this.dgvGiaoVien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvGiaoVien.Margin = new System.Windows.Forms.Padding(4);
             this.dgvGiaoVien.Name = "dgvGiaoVien";
             this.dgvGiaoVien.Size = new System.Drawing.Size(859, 240);
             this.dgvGiaoVien.TabIndex = 0;
@@ -326,9 +313,9 @@
             this.groupboxGV.Controls.Add(this.label2);
             this.groupboxGV.Controls.Add(this.label1);
             this.groupboxGV.Location = new System.Drawing.Point(8, 23);
-            this.groupboxGV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupboxGV.Margin = new System.Windows.Forms.Padding(4);
             this.groupboxGV.Name = "groupboxGV";
-            this.groupboxGV.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupboxGV.Padding = new System.Windows.Forms.Padding(4);
             this.groupboxGV.Size = new System.Drawing.Size(384, 250);
             this.groupboxGV.TabIndex = 0;
             this.groupboxGV.TabStop = false;
@@ -336,23 +323,25 @@
             // 
             // btnLamlai
             // 
+            this.btnLamlai.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.refesh;
+            this.btnLamlai.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnLamlai.Location = new System.Drawing.Point(276, 210);
-            this.btnLamlai.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLamlai.Margin = new System.Windows.Forms.Padding(4);
             this.btnLamlai.Name = "btnLamlai";
             this.btnLamlai.Size = new System.Drawing.Size(100, 28);
             this.btnLamlai.TabIndex = 13;
-            this.btnLamlai.Text = "Nhập lại";
             this.btnLamlai.UseVisualStyleBackColor = true;
             this.btnLamlai.Click += new System.EventHandler(this.btnLamlai_Click);
             // 
             // btnThem
             // 
+            this.btnThem.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.add;
+            this.btnThem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnThem.Location = new System.Drawing.Point(156, 210);
-            this.btnThem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(4);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(100, 28);
             this.btnThem.TabIndex = 12;
-            this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
@@ -360,7 +349,7 @@
             // 
             this.cmbMaKhoa.FormattingEnabled = true;
             this.cmbMaKhoa.Location = new System.Drawing.Point(108, 119);
-            this.cmbMaKhoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbMaKhoa.Margin = new System.Windows.Forms.Padding(4);
             this.cmbMaKhoa.Name = "cmbMaKhoa";
             this.cmbMaKhoa.Size = new System.Drawing.Size(267, 24);
             this.cmbMaKhoa.TabIndex = 11;
@@ -368,7 +357,7 @@
             // txtTenGiaoVien
             // 
             this.txtTenGiaoVien.Location = new System.Drawing.Point(108, 79);
-            this.txtTenGiaoVien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTenGiaoVien.Margin = new System.Windows.Forms.Padding(4);
             this.txtTenGiaoVien.Name = "txtTenGiaoVien";
             this.txtTenGiaoVien.Size = new System.Drawing.Size(267, 22);
             this.txtTenGiaoVien.TabIndex = 10;
@@ -376,7 +365,7 @@
             // txtGhiChu
             // 
             this.txtGhiChu.Location = new System.Drawing.Point(108, 156);
-            this.txtGhiChu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtGhiChu.Margin = new System.Windows.Forms.Padding(4);
             this.txtGhiChu.Multiline = true;
             this.txtGhiChu.Name = "txtGhiChu";
             this.txtGhiChu.Size = new System.Drawing.Size(267, 46);
@@ -386,7 +375,7 @@
             // 
             this.txtMaGiaoVien.Enabled = false;
             this.txtMaGiaoVien.Location = new System.Drawing.Point(108, 36);
-            this.txtMaGiaoVien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMaGiaoVien.Margin = new System.Windows.Forms.Padding(4);
             this.txtMaGiaoVien.Name = "txtMaGiaoVien";
             this.txtMaGiaoVien.Size = new System.Drawing.Size(195, 22);
             this.txtMaGiaoVien.TabIndex = 6;
@@ -436,9 +425,9 @@
             this.tabKhoa.Controls.Add(this.groupBox5);
             this.tabKhoa.Controls.Add(this.groupboxKhoa);
             this.tabKhoa.Location = new System.Drawing.Point(4, 25);
-            this.tabKhoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabKhoa.Margin = new System.Windows.Forms.Padding(4);
             this.tabKhoa.Name = "tabKhoa";
-            this.tabKhoa.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabKhoa.Padding = new System.Windows.Forms.Padding(4);
             this.tabKhoa.Size = new System.Drawing.Size(912, 611);
             this.tabKhoa.TabIndex = 1;
             this.tabKhoa.Text = "Khoa";
@@ -448,9 +437,9 @@
             // 
             this.groupBox5.Controls.Add(this.dgvKhoa);
             this.groupBox5.Location = new System.Drawing.Point(8, 226);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox5.Size = new System.Drawing.Size(893, 353);
             this.groupBox5.TabIndex = 1;
             this.groupBox5.TabStop = false;
@@ -466,7 +455,7 @@
             this.btnSua_Khoa,
             this.btnXoa_Khoa});
             this.dgvKhoa.Location = new System.Drawing.Point(11, 36);
-            this.dgvKhoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvKhoa.Margin = new System.Windows.Forms.Padding(4);
             this.dgvKhoa.Name = "dgvKhoa";
             this.dgvKhoa.Size = new System.Drawing.Size(875, 310);
             this.dgvKhoa.TabIndex = 0;
@@ -510,7 +499,6 @@
             // 
             // groupboxKhoa
             // 
-            this.groupboxKhoa.Controls.Add(this.btnThoatKhoa);
             this.groupboxKhoa.Controls.Add(this.btnNhaplaiKhoa);
             this.groupboxKhoa.Controls.Add(this.btnThemKhoa);
             this.groupboxKhoa.Controls.Add(this.txtGhiChu_Khoa);
@@ -520,50 +508,42 @@
             this.groupboxKhoa.Controls.Add(this.label9);
             this.groupboxKhoa.Controls.Add(this.label7);
             this.groupboxKhoa.Location = new System.Drawing.Point(8, 20);
-            this.groupboxKhoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupboxKhoa.Margin = new System.Windows.Forms.Padding(4);
             this.groupboxKhoa.Name = "groupboxKhoa";
-            this.groupboxKhoa.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupboxKhoa.Padding = new System.Windows.Forms.Padding(4);
             this.groupboxKhoa.Size = new System.Drawing.Size(893, 199);
             this.groupboxKhoa.TabIndex = 0;
             this.groupboxKhoa.TabStop = false;
             this.groupboxKhoa.Text = "Thêm mới một Khoa";
             // 
-            // btnThoatKhoa
-            // 
-            this.btnThoatKhoa.Location = new System.Drawing.Point(768, 128);
-            this.btnThoatKhoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnThoatKhoa.Name = "btnThoatKhoa";
-            this.btnThoatKhoa.Size = new System.Drawing.Size(100, 42);
-            this.btnThoatKhoa.TabIndex = 2;
-            this.btnThoatKhoa.Text = "Thoát";
-            this.btnThoatKhoa.UseVisualStyleBackColor = true;
-            // 
             // btnNhaplaiKhoa
             // 
-            this.btnNhaplaiKhoa.Location = new System.Drawing.Point(627, 128);
-            this.btnNhaplaiKhoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNhaplaiKhoa.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.refesh;
+            this.btnNhaplaiKhoa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnNhaplaiKhoa.Location = new System.Drawing.Point(690, 113);
+            this.btnNhaplaiKhoa.Margin = new System.Windows.Forms.Padding(4);
             this.btnNhaplaiKhoa.Name = "btnNhaplaiKhoa";
-            this.btnNhaplaiKhoa.Size = new System.Drawing.Size(100, 42);
+            this.btnNhaplaiKhoa.Size = new System.Drawing.Size(100, 57);
             this.btnNhaplaiKhoa.TabIndex = 8;
-            this.btnNhaplaiKhoa.Text = "Nhập lại";
             this.btnNhaplaiKhoa.UseVisualStyleBackColor = true;
             this.btnNhaplaiKhoa.Click += new System.EventHandler(this.btnNhaplaiKhoa_Click);
             // 
             // btnThemKhoa
             // 
-            this.btnThemKhoa.Location = new System.Drawing.Point(480, 128);
-            this.btnThemKhoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThemKhoa.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.add1;
+            this.btnThemKhoa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnThemKhoa.Location = new System.Drawing.Point(524, 113);
+            this.btnThemKhoa.Margin = new System.Windows.Forms.Padding(4);
             this.btnThemKhoa.Name = "btnThemKhoa";
-            this.btnThemKhoa.Size = new System.Drawing.Size(100, 42);
+            this.btnThemKhoa.Size = new System.Drawing.Size(100, 57);
             this.btnThemKhoa.TabIndex = 7;
-            this.btnThemKhoa.Text = "Thêm";
             this.btnThemKhoa.UseVisualStyleBackColor = true;
             this.btnThemKhoa.Click += new System.EventHandler(this.btnThemKhoa_Click);
             // 
             // txtGhiChu_Khoa
             // 
             this.txtGhiChu_Khoa.Location = new System.Drawing.Point(121, 113);
-            this.txtGhiChu_Khoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtGhiChu_Khoa.Margin = new System.Windows.Forms.Padding(4);
             this.txtGhiChu_Khoa.Multiline = true;
             this.txtGhiChu_Khoa.Name = "txtGhiChu_Khoa";
             this.txtGhiChu_Khoa.Size = new System.Drawing.Size(295, 56);
@@ -573,7 +553,7 @@
             // txtTenKhoa
             // 
             this.txtTenKhoa.Location = new System.Drawing.Point(121, 75);
-            this.txtTenKhoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTenKhoa.Margin = new System.Windows.Forms.Padding(4);
             this.txtTenKhoa.Name = "txtTenKhoa";
             this.txtTenKhoa.Size = new System.Drawing.Size(295, 22);
             this.txtTenKhoa.TabIndex = 5;
@@ -582,7 +562,7 @@
             // 
             this.txtMaKhoa.Enabled = false;
             this.txtMaKhoa.Location = new System.Drawing.Point(121, 39);
-            this.txtMaKhoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMaKhoa.Margin = new System.Windows.Forms.Padding(4);
             this.txtMaKhoa.Name = "txtMaKhoa";
             this.txtMaKhoa.Size = new System.Drawing.Size(208, 22);
             this.txtMaKhoa.TabIndex = 4;
@@ -622,9 +602,9 @@
             this.tabKhoaHoc.Controls.Add(this.groupBox6);
             this.tabKhoaHoc.Controls.Add(this.groupBox7);
             this.tabKhoaHoc.Location = new System.Drawing.Point(4, 25);
-            this.tabKhoaHoc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabKhoaHoc.Margin = new System.Windows.Forms.Padding(4);
             this.tabKhoaHoc.Name = "tabKhoaHoc";
-            this.tabKhoaHoc.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabKhoaHoc.Padding = new System.Windows.Forms.Padding(4);
             this.tabKhoaHoc.Size = new System.Drawing.Size(912, 611);
             this.tabKhoaHoc.TabIndex = 2;
             this.tabKhoaHoc.Text = "Khóa Học";
@@ -634,9 +614,9 @@
             // 
             this.groupBox6.Controls.Add(this.dgvKhoaHoc);
             this.groupBox6.Location = new System.Drawing.Point(8, 246);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox6.Size = new System.Drawing.Size(893, 325);
             this.groupBox6.TabIndex = 3;
             this.groupBox6.TabStop = false;
@@ -654,7 +634,7 @@
             this.btnSuaKhoaHoc,
             this.btnXoaKhoaHoc});
             this.dgvKhoaHoc.Location = new System.Drawing.Point(11, 36);
-            this.dgvKhoaHoc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvKhoaHoc.Margin = new System.Windows.Forms.Padding(4);
             this.dgvKhoaHoc.Name = "dgvKhoaHoc";
             this.dgvKhoaHoc.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvKhoaHoc.Size = new System.Drawing.Size(875, 265);
@@ -712,7 +692,6 @@
             // 
             // groupBox7
             // 
-            this.groupBox7.Controls.Add(this.btnThoatKhoaHoc);
             this.groupBox7.Controls.Add(this.dtpNgayKetThuc);
             this.groupBox7.Controls.Add(this.dtpNgayBatDau);
             this.groupBox7.Controls.Add(this.label14);
@@ -726,31 +705,20 @@
             this.groupBox7.Controls.Add(this.label11);
             this.groupBox7.Controls.Add(this.label12);
             this.groupBox7.Location = new System.Drawing.Point(8, 15);
-            this.groupBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox7.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox7.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox7.Size = new System.Drawing.Size(893, 209);
             this.groupBox7.TabIndex = 2;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Thêm mới một Khóa học";
-            // 
-            // btnThoatKhoaHoc
-            // 
-            this.btnThoatKhoaHoc.Location = new System.Drawing.Point(764, 134);
-            this.btnThoatKhoaHoc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnThoatKhoaHoc.Name = "btnThoatKhoaHoc";
-            this.btnThoatKhoaHoc.Size = new System.Drawing.Size(100, 42);
-            this.btnThoatKhoaHoc.TabIndex = 2;
-            this.btnThoatKhoaHoc.Text = "Thoát";
-            this.btnThoatKhoaHoc.UseVisualStyleBackColor = true;
-            this.btnThoatKhoaHoc.Click += new System.EventHandler(this.btnThoatKhoaHoc_Click);
             // 
             // dtpNgayKetThuc
             // 
             this.dtpNgayKetThuc.CustomFormat = "dd/MM/yyyy";
             this.dtpNgayKetThuc.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpNgayKetThuc.Location = new System.Drawing.Point(571, 71);
-            this.dtpNgayKetThuc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtpNgayKetThuc.Margin = new System.Windows.Forms.Padding(4);
             this.dtpNgayKetThuc.Name = "dtpNgayKetThuc";
             this.dtpNgayKetThuc.Size = new System.Drawing.Size(135, 22);
             this.dtpNgayKetThuc.TabIndex = 13;
@@ -761,7 +729,7 @@
             this.dtpNgayBatDau.CustomFormat = "dd/MM/yyyy";
             this.dtpNgayBatDau.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpNgayBatDau.Location = new System.Drawing.Point(571, 32);
-            this.dtpNgayBatDau.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtpNgayBatDau.Margin = new System.Windows.Forms.Padding(4);
             this.dtpNgayBatDau.Name = "dtpNgayBatDau";
             this.dtpNgayBatDau.Size = new System.Drawing.Size(135, 22);
             this.dtpNgayBatDau.TabIndex = 12;
@@ -789,30 +757,32 @@
             // 
             // btnNhapLaiKhoahoc
             // 
-            this.btnNhapLaiKhoahoc.Location = new System.Drawing.Point(607, 142);
-            this.btnNhapLaiKhoahoc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNhapLaiKhoahoc.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.refesh;
+            this.btnNhapLaiKhoahoc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnNhapLaiKhoahoc.Location = new System.Drawing.Point(681, 130);
+            this.btnNhapLaiKhoahoc.Margin = new System.Windows.Forms.Padding(4);
             this.btnNhapLaiKhoahoc.Name = "btnNhapLaiKhoahoc";
-            this.btnNhapLaiKhoahoc.Size = new System.Drawing.Size(100, 28);
+            this.btnNhapLaiKhoahoc.Size = new System.Drawing.Size(100, 54);
             this.btnNhapLaiKhoahoc.TabIndex = 8;
-            this.btnNhapLaiKhoahoc.Text = "Nhập lại";
             this.btnNhapLaiKhoahoc.UseVisualStyleBackColor = true;
             this.btnNhapLaiKhoahoc.Click += new System.EventHandler(this.btnNhapLaiKhoahoc_Click);
             // 
             // btnThemKhoaHoc
             // 
-            this.btnThemKhoaHoc.Location = new System.Drawing.Point(452, 142);
-            this.btnThemKhoaHoc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThemKhoaHoc.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.add1;
+            this.btnThemKhoaHoc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnThemKhoaHoc.Location = new System.Drawing.Point(521, 130);
+            this.btnThemKhoaHoc.Margin = new System.Windows.Forms.Padding(4);
             this.btnThemKhoaHoc.Name = "btnThemKhoaHoc";
-            this.btnThemKhoaHoc.Size = new System.Drawing.Size(100, 28);
+            this.btnThemKhoaHoc.Size = new System.Drawing.Size(100, 54);
             this.btnThemKhoaHoc.TabIndex = 7;
-            this.btnThemKhoaHoc.Text = "Thêm";
             this.btnThemKhoaHoc.UseVisualStyleBackColor = true;
             this.btnThemKhoaHoc.Click += new System.EventHandler(this.btnThemKhoaHoc_Click);
             // 
             // txtGhichu_KhoaHoc
             // 
             this.txtGhichu_KhoaHoc.Location = new System.Drawing.Point(121, 113);
-            this.txtGhichu_KhoaHoc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtGhichu_KhoaHoc.Margin = new System.Windows.Forms.Padding(4);
             this.txtGhichu_KhoaHoc.Multiline = true;
             this.txtGhichu_KhoaHoc.Name = "txtGhichu_KhoaHoc";
             this.txtGhichu_KhoaHoc.Size = new System.Drawing.Size(295, 56);
@@ -821,7 +791,7 @@
             // txtTenKhoaHoc
             // 
             this.txtTenKhoaHoc.Location = new System.Drawing.Point(121, 75);
-            this.txtTenKhoaHoc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTenKhoaHoc.Margin = new System.Windows.Forms.Padding(4);
             this.txtTenKhoaHoc.Name = "txtTenKhoaHoc";
             this.txtTenKhoaHoc.Size = new System.Drawing.Size(295, 22);
             this.txtTenKhoaHoc.TabIndex = 5;
@@ -830,7 +800,7 @@
             // 
             this.txtMaKhoaHoc.Enabled = false;
             this.txtMaKhoaHoc.Location = new System.Drawing.Point(121, 39);
-            this.txtMaKhoaHoc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMaKhoaHoc.Margin = new System.Windows.Forms.Padding(4);
             this.txtMaKhoaHoc.Name = "txtMaKhoaHoc";
             this.txtMaKhoaHoc.Size = new System.Drawing.Size(208, 22);
             this.txtMaKhoaHoc.TabIndex = 4;
@@ -871,9 +841,9 @@
             this.tabHe.Controls.Add(this.groupBox9);
             this.tabHe.Controls.Add(this.groupBox8);
             this.tabHe.Location = new System.Drawing.Point(4, 25);
-            this.tabHe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabHe.Margin = new System.Windows.Forms.Padding(4);
             this.tabHe.Name = "tabHe";
-            this.tabHe.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabHe.Padding = new System.Windows.Forms.Padding(4);
             this.tabHe.Size = new System.Drawing.Size(912, 611);
             this.tabHe.TabIndex = 3;
             this.tabHe.Text = "Hệ";
@@ -883,9 +853,9 @@
             // 
             this.groupBox9.Controls.Add(this.dgvHE);
             this.groupBox9.Location = new System.Drawing.Point(21, 238);
-            this.groupBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox9.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox9.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox9.Size = new System.Drawing.Size(880, 270);
             this.groupBox9.TabIndex = 1;
             this.groupBox9.TabStop = false;
@@ -902,7 +872,7 @@
             this.btnSua_He,
             this.btnXoa_He});
             this.dgvHE.Location = new System.Drawing.Point(15, 23);
-            this.dgvHE.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvHE.Margin = new System.Windows.Forms.Padding(4);
             this.dgvHE.Name = "dgvHE";
             this.dgvHE.Size = new System.Drawing.Size(855, 239);
             this.dgvHE.TabIndex = 0;
@@ -913,12 +883,14 @@
             this.MaHe.DataPropertyName = "MaHe";
             this.MaHe.HeaderText = "Mã Hệ";
             this.MaHe.Name = "MaHe";
+            this.MaHe.ReadOnly = true;
             // 
             // TenHe
             // 
             this.TenHe.DataPropertyName = "TenHe";
             this.TenHe.HeaderText = "Tên Hệ";
             this.TenHe.Name = "TenHe";
+            this.TenHe.ReadOnly = true;
             this.TenHe.Width = 200;
             // 
             // Ghichu
@@ -926,12 +898,14 @@
             this.Ghichu.DataPropertyName = "GhiChu";
             this.Ghichu.HeaderText = "Ghi Chú";
             this.Ghichu.Name = "Ghichu";
+            this.Ghichu.ReadOnly = true;
             this.Ghichu.Width = 135;
             // 
             // btnSua_He
             // 
             this.btnSua_He.HeaderText = "Sửa";
             this.btnSua_He.Name = "btnSua_He";
+            this.btnSua_He.ReadOnly = true;
             this.btnSua_He.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             this.btnSua_He.Text = "Sửa";
             this.btnSua_He.ToolTipText = "Sửa";
@@ -942,6 +916,7 @@
             // 
             this.btnXoa_He.HeaderText = "Xóa";
             this.btnXoa_He.Name = "btnXoa_He";
+            this.btnXoa_He.ReadOnly = true;
             this.btnXoa_He.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             this.btnXoa_He.Text = "Xóa";
             this.btnXoa_He.ToolTipText = "Xóa";
@@ -959,9 +934,9 @@
             this.groupBox8.Controls.Add(this.label16);
             this.groupBox8.Controls.Add(this.label15);
             this.groupBox8.Location = new System.Drawing.Point(21, 20);
-            this.groupBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox8.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox8.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox8.Size = new System.Drawing.Size(556, 176);
             this.groupBox8.TabIndex = 0;
             this.groupBox8.TabStop = false;
@@ -969,30 +944,32 @@
             // 
             // btnLamlai_He
             // 
-            this.btnLamlai_He.Location = new System.Drawing.Point(428, 133);
-            this.btnLamlai_He.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLamlai_He.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.refesh;
+            this.btnLamlai_He.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnLamlai_He.Location = new System.Drawing.Point(428, 116);
+            this.btnLamlai_He.Margin = new System.Windows.Forms.Padding(4);
             this.btnLamlai_He.Name = "btnLamlai_He";
-            this.btnLamlai_He.Size = new System.Drawing.Size(100, 36);
+            this.btnLamlai_He.Size = new System.Drawing.Size(100, 53);
             this.btnLamlai_He.TabIndex = 7;
-            this.btnLamlai_He.Text = "Làm lại";
             this.btnLamlai_He.UseVisualStyleBackColor = true;
             this.btnLamlai_He.Click += new System.EventHandler(this.btnLamlai_He_Click);
             // 
             // btnThemHe
             // 
-            this.btnThemHe.Location = new System.Drawing.Point(428, 65);
-            this.btnThemHe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThemHe.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.add;
+            this.btnThemHe.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnThemHe.Location = new System.Drawing.Point(428, 41);
+            this.btnThemHe.Margin = new System.Windows.Forms.Padding(4);
             this.btnThemHe.Name = "btnThemHe";
             this.btnThemHe.Size = new System.Drawing.Size(100, 60);
             this.btnThemHe.TabIndex = 6;
-            this.btnThemHe.Text = "Thêm";
             this.btnThemHe.UseVisualStyleBackColor = true;
             this.btnThemHe.Click += new System.EventHandler(this.btnThemHe_Click);
             // 
             // txtGhiChu_He
             // 
             this.txtGhiChu_He.Location = new System.Drawing.Point(87, 112);
-            this.txtGhiChu_He.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtGhiChu_He.Margin = new System.Windows.Forms.Padding(4);
             this.txtGhiChu_He.Multiline = true;
             this.txtGhiChu_He.Name = "txtGhiChu_He";
             this.txtGhiChu_He.Size = new System.Drawing.Size(291, 56);
@@ -1001,7 +978,7 @@
             // txtTenHe
             // 
             this.txtTenHe.Location = new System.Drawing.Point(87, 75);
-            this.txtTenHe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTenHe.Margin = new System.Windows.Forms.Padding(4);
             this.txtTenHe.Name = "txtTenHe";
             this.txtTenHe.Size = new System.Drawing.Size(249, 22);
             this.txtTenHe.TabIndex = 4;
@@ -1010,7 +987,7 @@
             // 
             this.txtMaHe.Enabled = false;
             this.txtMaHe.Location = new System.Drawing.Point(87, 37);
-            this.txtMaHe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMaHe.Margin = new System.Windows.Forms.Padding(4);
             this.txtMaHe.Name = "txtMaHe";
             this.txtMaHe.Size = new System.Drawing.Size(199, 22);
             this.txtMaHe.TabIndex = 3;
@@ -1050,7 +1027,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.tabGV_Khoa_KhoaHoc_He);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "uc_GiaoVien_KhoaHoc_Khoa_He";
             this.Size = new System.Drawing.Size(920, 640);
             this.Load += new System.EventHandler(this.uc_GiaoVien_KhoaHoc_Khoa_He_Load);
@@ -1107,7 +1084,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtThongTinTimKiem_GV;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button btnThoat;
         private System.Windows.Forms.GroupBox groupboxKhoa;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label10;
@@ -1118,10 +1094,8 @@
         private System.Windows.Forms.TextBox txtGhiChu_Khoa;
         private System.Windows.Forms.TextBox txtTenKhoa;
         private System.Windows.Forms.TextBox txtMaKhoa;
-        private System.Windows.Forms.Button btnThoatKhoa;
         private System.Windows.Forms.DataGridView dgvKhoa;
         private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.Button btnThoatKhoaHoc;
         private System.Windows.Forms.DataGridView dgvKhoaHoc;
         private System.Windows.Forms.GroupBox groupBox7;
         private System.Windows.Forms.Label label14;
@@ -1147,11 +1121,6 @@
         private System.Windows.Forms.TextBox txtMaHe;
         private System.Windows.Forms.GroupBox groupBox9;
         private System.Windows.Forms.DataGridView dgvHE;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MaHe;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TenHe;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Ghichu;
-        private System.Windows.Forms.DataGridViewButtonColumn btnSua_He;
-        private System.Windows.Forms.DataGridViewButtonColumn btnXoa_He;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaKhoaHoc;
         private System.Windows.Forms.DataGridViewTextBoxColumn TenKhoaHoc;
         private System.Windows.Forms.DataGridViewTextBoxColumn NgayBatDau;
@@ -1170,5 +1139,10 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn GhiChu_Khoa;
         private System.Windows.Forms.DataGridViewButtonColumn btnSua_Khoa;
         private System.Windows.Forms.DataGridViewButtonColumn btnXoa_Khoa;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MaHe;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TenHe;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Ghichu;
+        private System.Windows.Forms.DataGridViewButtonColumn btnSua_He;
+        private System.Windows.Forms.DataGridViewButtonColumn btnXoa_He;
     }
 }
