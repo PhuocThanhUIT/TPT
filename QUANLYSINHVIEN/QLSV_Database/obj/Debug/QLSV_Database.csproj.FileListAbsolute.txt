@@ -1,0 +1,15 @@
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QLSV_Database\obj\Debug\ResolveAssemblyReference.cache
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QLSV_Database\obj\Debug\QLSV_Database.csproj.GenerateResource.Cache
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QLSV_Database\bin\Debug\QLSV_Database.exe
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QLSV_Database\bin\Debug\QLSV_Database.pdb
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QLSV_Database\obj\Debug\QLSV_Database.exe
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QLSV_Database\obj\Debug\QLSV_Database.pdb
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QLSV_Database\obj\Debug\QLSV_GiaoDien.Properties.Resources.resources
+D:\visual nha\QLSV\Code\QLSV_Database\bin\Debug\QLSV_Database.exe
+D:\visual nha\QLSV\Code\QLSV_Database\bin\Debug\QLSV_Database.pdb
+D:\visual nha\QLSV\Code\QLSV_Database\obj\Debug\QLSV_Database.csprojAssemblyReference.cache
+D:\visual nha\QLSV\Code\QLSV_Database\obj\Debug\QLSV_GiaoDien.Properties.Resources.resources
+D:\visual nha\QLSV\Code\QLSV_Database\obj\Debug\QLSV_Database.csproj.GenerateResource.cache
+D:\visual nha\QLSV\Code\QLSV_Database\obj\Debug\QLSV_Database.csproj.CoreCompileInputs.cache
+D:\visual nha\QLSV\Code\QLSV_Database\obj\Debug\QLSV_Database.exe
+D:\visual nha\QLSV\Code\QLSV_Database\obj\Debug\QLSV_Database.pdb

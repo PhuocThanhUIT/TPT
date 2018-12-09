@@ -1,0 +1,119 @@
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QuanLySV\obj\Debug\ResolveAssemblyReference.cache
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QuanLySV\obj\Debug\QuanLySV.csproj.GenerateResource.Cache
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QuanLySV\bin\Debug\QuanLySV.exe
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QuanLySV\bin\Debug\QuanLySV.pdb
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QuanLySV\obj\Debug\QuanLySV.exe
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QuanLySV\obj\Debug\QuanLySV.pdb
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QuanLySV\bin\Debug\QLSV_Database.exe
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QuanLySV\bin\Debug\QLSV_Database.pdb
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QuanLySV\obj\Debug\QLSV_GiaoDien.frmMain.resources
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QuanLySV\obj\Debug\QLSV_GiaoDien.Login.resources
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QuanLySV\obj\Debug\QLSV_GiaoDien.Properties.Resources.resources
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QuanLySV\obj\Debug\QLSV_GiaoDien.uc_DK_MonHoc.resources
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QuanLySV\obj\Debug\QLSV_GiaoDien.uc_User.resources
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QuanLySV\bin\Debug\QLSV_Xuly.dll
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QuanLySV\bin\Debug\QLSV_Xuly.pdb
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QuanLySV\obj\Debug\QLSV_GiaoDien.UserControls.uc_SinhVien_Lop_MonHoc.resources
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QuanLySV\obj\Debug\QLSV_GiaoDien.UserControls.uc_GiaoVien_KhoaHoc_Khoa_He.resources
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QuanLySV\obj\Debug\QLSV_GiaoDien.UserControls.uc_NhapDiem.resources
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QuanLySV\obj\Debug\QLSV_GiaoDien.frmQuanLySV.resources
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QuanLySV\obj\Debug\QLSV_GiaoDien.frmQuanLiMonHoc.resources
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QuanLySV\obj\Debug\QLSV_GiaoDien.Reports.frmReportSinhVien.resources
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QuanLySV\obj\Debug\QLSV_GiaoDien.Reports.frmBaocaoMH.resources
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QuanLySV\obj\Debug\QLSV_GiaoDien.Reports.frmBaocaoDiem.resources
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QuanLySV\bin\Debug\QuanLySV.exe.config
+D:\BaiTap\Phong Thi Nghiem\C#\QuanLySV\QuanLySV\obj\Debug\QLSV_GiaoDien.Aboutme.resources
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\QuanLySV.exe.config
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\QuanLySV.exe
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\QuanLySV.pdb
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\CrystalDecisions.Shared.dll
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\QLSV_Database.exe
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\QLSV_Xuly.dll
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\System.Web.Services.dll
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\FlashControlV71.dll
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\stdole.dll
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\ShockwaveFlashObjects.dll
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\QLSV_Database.pdb
+D:\visual nha\QLSV\Code\QuanLySV\bin\Debug\QLSV_Xuly.pdb
+D:\visual nha\QLSV\Code\QuanLySV\obj\Debug\QuanLySV.csprojAssemblyReference.cache
+D:\visual nha\QLSV\Code\QuanLySV\obj\Debug\QLSV_GiaoDien.Aboutme.resources
+D:\visual nha\QLSV\Code\QuanLySV\obj\Debug\QLSV_GiaoDien.frmMain.resources
+D:\visual nha\QLSV\Code\QuanLySV\obj\Debug\QLSV_GiaoDien.frmQuanLiMonHoc.resources
+D:\visual nha\QLSV\Code\QuanLySV\obj\Debug\QLSV_GiaoDien.frmQuanLySV.resources
+D:\visual nha\QLSV\Code\QuanLySV\obj\Debug\QLSV_GiaoDien.Login.resources
+D:\visual nha\QLSV\Code\QuanLySV\obj\Debug\QLSV_GiaoDien.Properties.Resources.resources
+D:\visual nha\QLSV\Code\QuanLySV\obj\Debug\QLSV_GiaoDien.Reports.frmBaocaoDiem.resources
+D:\visual nha\QLSV\Code\QuanLySV\obj\Debug\QLSV_GiaoDien.Reports.frmBaocaoMH.resources
+D:\visual nha\QLSV\Code\QuanLySV\obj\Debug\QLSV_GiaoDien.Reports.frmReportSinhVien.resources
+D:\visual nha\QLSV\Code\QuanLySV\obj\Debug\QLSV_GiaoDien.uc_DK_MonHoc.resources
+D:\visual nha\QLSV\Code\QuanLySV\obj\Debug\QLSV_GiaoDien.UserControls.uc_GiaoVien_KhoaHoc_Khoa_He.resources
+D:\visual nha\QLSV\Code\QuanLySV\obj\Debug\QLSV_GiaoDien.UserControls.uc_NhapDiem.resources
+D:\visual nha\QLSV\Code\QuanLySV\obj\Debug\QLSV_GiaoDien.UserControls.uc_SinhVien_Lop_MonHoc.resources
+D:\visual nha\QLSV\Code\QuanLySV\obj\Debug\QLSV_GiaoDien.uc_User.resources
+D:\visual nha\QLSV\Code\QuanLySV\obj\Debug\QuanLySV.csproj.GenerateResource.cache
+D:\visual nha\QLSV\Code\QuanLySV\obj\Debug\QuanLySV.csproj.CoreCompileInputs.cache
+D:\visual nha\QLSV\Code\QuanLySV\obj\Debug\QuanLySV.csproj.CopyComplete
+D:\visual nha\QLSV\Code\QuanLySV\obj\Debug\QuanLySV.exe
+D:\visual nha\QLSV\Code\QuanLySV\obj\Debug\QuanLySV.pdb
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\QuanLySV.exe.config
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\QuanLySV.exe
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\QuanLySV.pdb
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\CrystalDecisions.Shared.dll
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\QLSV_Database.exe
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\QLSV_Xuly.dll
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\System.Web.Services.dll
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\FlashControlV71.dll
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\stdole.dll
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\ShockwaveFlashObjects.dll
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\QLSV_Database.pdb
+D:\visual nha\QLSV\TPT\QuanLySV\bin\Debug\QLSV_Xuly.pdb
+D:\visual nha\QLSV\TPT\QuanLySV\obj\Debug\QuanLySV.csprojAssemblyReference.cache
+D:\visual nha\QLSV\TPT\QuanLySV\obj\Debug\QLSV_GiaoDien.Aboutme.resources
+D:\visual nha\QLSV\TPT\QuanLySV\obj\Debug\QLSV_GiaoDien.frmMain.resources
+D:\visual nha\QLSV\TPT\QuanLySV\obj\Debug\QLSV_GiaoDien.frmQuanLiMonHoc.resources
+D:\visual nha\QLSV\TPT\QuanLySV\obj\Debug\QLSV_GiaoDien.frmQuanLySV.resources
+D:\visual nha\QLSV\TPT\QuanLySV\obj\Debug\QLSV_GiaoDien.Login.resources
+D:\visual nha\QLSV\TPT\QuanLySV\obj\Debug\QLSV_GiaoDien.Properties.Resources.resources
+D:\visual nha\QLSV\TPT\QuanLySV\obj\Debug\QLSV_GiaoDien.Reports.frmBaocaoDiem.resources
+D:\visual nha\QLSV\TPT\QuanLySV\obj\Debug\QLSV_GiaoDien.Reports.frmBaocaoMH.resources
+D:\visual nha\QLSV\TPT\QuanLySV\obj\Debug\QLSV_GiaoDien.Reports.frmReportSinhVien.resources
+D:\visual nha\QLSV\TPT\QuanLySV\obj\Debug\QLSV_GiaoDien.uc_DK_MonHoc.resources
+D:\visual nha\QLSV\TPT\QuanLySV\obj\Debug\QLSV_GiaoDien.UserControls.uc_GiaoVien_KhoaHoc_Khoa_He.resources
+D:\visual nha\QLSV\TPT\QuanLySV\obj\Debug\QLSV_GiaoDien.UserControls.uc_NhapDiem.resources
+D:\visual nha\QLSV\TPT\QuanLySV\obj\Debug\QLSV_GiaoDien.UserControls.uc_SinhVien_Lop_MonHoc.resources
+D:\visual nha\QLSV\TPT\QuanLySV\obj\Debug\QLSV_GiaoDien.uc_User.resources
+D:\visual nha\QLSV\TPT\QuanLySV\obj\Debug\QuanLySV.csproj.GenerateResource.cache
+D:\visual nha\QLSV\TPT\QuanLySV\obj\Debug\QuanLySV.csproj.CoreCompileInputs.cache
+D:\visual nha\QLSV\TPT\QuanLySV\obj\Debug\QuanLySV.csproj.CopyComplete
+D:\visual nha\QLSV\TPT\QuanLySV\obj\Debug\QuanLySV.exe
+D:\visual nha\QLSV\TPT\QuanLySV\obj\Debug\QuanLySV.pdb
