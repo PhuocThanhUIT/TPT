@@ -21,7 +21,7 @@ namespace QLSV_GiaoDien
         int x_pnQlSV, y_pnQLSV, x_pnQLD, y_pnQLD, x_pnQLMH, y_pnQLMH;//ví trí
         private void Form1_Load(object sender, EventArgs e)
         {
-           
+         
             btnQLSV_collapse.Visible = true;
             btnQLSV_ex.Visible = false;
 
@@ -255,7 +255,8 @@ namespace QLSV_GiaoDien
             TacVuToolStripMenuItem.Enabled = false;
             báoCáoToolStripMenuItem.Enabled = false;
             pan_Main.Controls.Clear();
-            pan_Main.BackgroundImage = Properties.Resources._24172808_1774679236170426_7716303081660080239_o;
+            pan_Main.BackgroundImage = Properties.Resources.school;
+
             lblTitle.Text = "Chương trình quản lý sinh viên";
         }
 
@@ -282,19 +283,90 @@ namespace QLSV_GiaoDien
             TacVuToolStripMenuItem.Enabled = false;
             báoCáoToolStripMenuItem.Enabled = false;
             pan_Main.Controls.Clear();
-            pan_Main.BackgroundImage = Properties.Resources._24172808_1774679236170426_7716303081660080239_o;
+            pan_Main.BackgroundImage = Properties.Resources.school;
+
             lblTitle.Text = "Chương trình quản lý sinh viên";
         }
 
+
+        #region mouse color
+
         private void lnkTaiKhoan_MouseHover(object sender, EventArgs e)
         {
-            lnkTaiKhoan.BackColor = System.Drawing.Color.Orange;
+            lnkTaiKhoan.BackColor = System.Drawing.Color.AliceBlue;
         }
-
         private void lnkTaiKhoan_MouseLeave(object sender, EventArgs e)
         {
             lnkTaiKhoan.BackColor = System.Drawing.Color.Empty;
         }
+        private void lnkDangXuat_MouseHover(object sender, EventArgs e)
+        {
+            lnkDangXuat.BackColor = System.Drawing.Color.AliceBlue;
+        }
+        private void lnkDangXuat_MouseLeave(object sender, EventArgs e)
+        {
+            lnkDangXuat.BackColor = System.Drawing.Color.Empty;
+        }
+        private void lnk_QuanlySv_lop_mh_MouseHover(object sender, EventArgs e)
+        {
+            lnk_QuanlySv_lop_mh.BackColor = System.Drawing.Color.AliceBlue;
+        }
+        private void lnk_QuanlySv_lop_mh_MouseLeave(object sender, EventArgs e)
+        {
+            lnk_QuanlySv_lop_mh.BackColor = System.Drawing.Color.Empty;
+        }
+        private void lnkNhapDiem_MouseHover(object sender, EventArgs e)
+        {
+            lnkNhapDiem.BackColor = System.Drawing.Color.AliceBlue;
+        }
+        private void lnkNhapDiem_MouseLeave(object sender, EventArgs e)
+        {
+            lnkNhapDiem.BackColor = System.Drawing.Color.Empty;
+        }
+        private void lnkGV_K_e_MouseHover(object sender, EventArgs e)
+        {
+            lnkGV_K_e.BackColor = System.Drawing.Color.AliceBlue;
+        }
+        private void lnkGV_K_e_MouseLeave(object sender, EventArgs e)
+        {
+            lnkGV_K_e.BackColor = System.Drawing.Color.Empty;
+        }
+        private void lnkXuatDSMH_MouseHover(object sender, EventArgs e)
+        {
+            lnkXuatDSMH.BackColor = System.Drawing.Color.AliceBlue;
+        }
+
+        private void lnkXuatDSMH_MouseLeave(object sender, EventArgs e)
+        {
+            lnkXuatDSMH.BackColor = System.Drawing.Color.Empty;
+        }
+
+        private void lnkXuatSV_MouseHover(object sender, EventArgs e)
+        {
+            lnkXuatSV.BackColor = System.Drawing.Color.AliceBlue;
+        }
+
+        private void lnkXuatSV_MouseLeave(object sender, EventArgs e)
+        {
+            lnkXuatSV.BackColor = System.Drawing.Color.Empty;
+        }
+
+        private void lnkXemDiem_MouseHover(object sender, EventArgs e)
+        {
+            lnkXemDiem.BackColor = System.Drawing.Color.AliceBlue;
+        }
+
+        private void lnkXemDiem_MouseLeave(object sender, EventArgs e)
+        {
+            lnkXemDiem.BackColor = System.Drawing.Color.Empty;
+        }
+
+        #endregion
+
+
+
+
+
         #region bao cao
         private void lnkXuatSV_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -333,6 +405,8 @@ namespace QLSV_GiaoDien
             qlsv_xl.AddControl(pan_Main, gkh);
         }
 
+     
+
         private void nhapDiemToolStripMenuItem_Click(object sender, EventArgs e)
         {
             lblTitle.Text = "Nhập Điểm";
@@ -363,7 +437,7 @@ namespace QLSV_GiaoDien
         private void aboutMeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Aboutme ab = new Aboutme();
-            ab.Show();
+            ab.ShowDialog();
         }
 
        

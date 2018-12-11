@@ -102,11 +102,6 @@
     <Compile Include="frmQuanLySV.Designer.cs">
       <DependentUpon>frmQuanLySV.cs</DependentUpon>
     </Compile>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -176,6 +171,11 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -257,15 +257,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\noImageAvailable.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\button.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bg.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
       <Visible>False</Visible>
       <ProductName>.NET Framework Client Profile</ProductName>
@@ -298,18 +289,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Behavior.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Magnify.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\refresh_48.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="app.config" />
     <None Include="Reports\dsQLSV.xsc">
       <DependentUpon>dsQLSV.xsd</DependentUpon>
+      <SubType>Designer</SubType>
     </None>
     <None Include="Reports\dsQLSV.xsd">
       <SubType>Designer</SubType>
@@ -318,8 +301,8 @@
     </None>
     <None Include="Reports\dsQLSV.xss">
       <DependentUpon>dsQLSV.xsd</DependentUpon>
+      <SubType>Designer</SubType>
     </None>
-    <None Include="Resources\Search.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\QLSV_Database\QLSV_Database.csproj">
@@ -336,40 +319,22 @@
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\bg1.jpg" />
+    <None Include="Resources\school.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\24172808_1774679236170426_7716303081660080239_o.jpg" />
+    <None Include="Resources\button login.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\tải xuống1.png" />
+    <None Include="Resources\button.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\exit.png" />
+    <None Include="Resources\logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\tick.png" />
+    <None Include="Resources\bg.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\reset.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\refesh.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\add.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\add1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\exit1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\delete.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\delete.png" />
+    <None Include="Resources\button exit.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

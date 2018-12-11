@@ -306,7 +306,6 @@
             // 
             // btnClear
             // 
-            this.btnClear.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.refesh;
             this.btnClear.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnClear.Location = new System.Drawing.Point(16, 71);
             this.btnClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -318,7 +317,6 @@
             // 
             // btnHuy
             // 
-            this.btnHuy.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.refresh_48;
             this.btnHuy.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnHuy.Location = new System.Drawing.Point(16, 119);
             this.btnHuy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -330,7 +328,6 @@
             // 
             // btnDongy
             // 
-            this.btnDongy.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.tick;
             this.btnDongy.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnDongy.Location = new System.Drawing.Point(16, 26);
             this.btnDongy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -592,7 +589,6 @@
             // 
             // btnLamlai
             // 
-            this.btnLamlai.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.refesh;
             this.btnLamlai.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnLamlai.Location = new System.Drawing.Point(368, 305);
             this.btnLamlai.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -615,7 +611,6 @@
             // 
             // btnThem
             // 
-            this.btnThem.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.add1;
             this.btnThem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnThem.Location = new System.Drawing.Point(243, 304);
             this.btnThem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -875,7 +870,6 @@
             // 
             // btnTimDKMH
             // 
-            this.btnTimDKMH.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.Search;
             this.btnTimDKMH.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnTimDKMH.Location = new System.Drawing.Point(445, 27);
             this.btnTimDKMH.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -1022,7 +1016,6 @@
             // 
             // btnLamlai_DKMH
             // 
-            this.btnLamlai_DKMH.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.refesh;
             this.btnLamlai_DKMH.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnLamlai_DKMH.Location = new System.Drawing.Point(697, 95);
             this.btnLamlai_DKMH.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -1034,7 +1027,6 @@
             // 
             // btnThem_DKMH
             // 
-            this.btnThem_DKMH.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.tick;
             this.btnThem_DKMH.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnThem_DKMH.Location = new System.Drawing.Point(697, 22);
             this.btnThem_DKMH.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -1131,7 +1123,6 @@
             // 
             // btnTimLop
             // 
-            this.btnTimLop.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.Search;
             this.btnTimLop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnTimLop.Location = new System.Drawing.Point(805, 256);
             this.btnTimLop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -1239,7 +1230,6 @@
             // 
             // btnLamlai_Lop
             // 
-            this.btnLamlai_Lop.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.refesh;
             this.btnLamlai_Lop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnLamlai_Lop.Location = new System.Drawing.Point(651, 119);
             this.btnLamlai_Lop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -1251,7 +1241,6 @@
             // 
             // btnThemLop
             // 
-            this.btnThemLop.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.add;
             this.btnThemLop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnThemLop.Location = new System.Drawing.Point(533, 119);
             this.btnThemLop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -1433,7 +1422,6 @@
             // 
             // btnLamlai_Nganh
             // 
-            this.btnLamlai_Nganh.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.refesh;
             this.btnLamlai_Nganh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnLamlai_Nganh.Location = new System.Drawing.Point(639, 142);
             this.btnLamlai_Nganh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -1445,7 +1433,6 @@
             // 
             // btnThem_Nganh
             // 
-            this.btnThem_Nganh.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.add;
             this.btnThem_Nganh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnThem_Nganh.Location = new System.Drawing.Point(512, 142);
             this.btnThem_Nganh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);

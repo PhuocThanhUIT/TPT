@@ -104,7 +104,10 @@
             // 
             // btnQLDIEM_ex
             // 
-            this.btnQLDIEM_ex.Image = global::QLSV_GiaoDien.Properties.Resources.button;
+            this.btnQLDIEM_ex.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.button;
+            this.btnQLDIEM_ex.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnQLDIEM_ex.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnQLDIEM_ex.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnQLDIEM_ex.Location = new System.Drawing.Point(0, 4);
             this.btnQLDIEM_ex.Margin = new System.Windows.Forms.Padding(4);
             this.btnQLDIEM_ex.Name = "btnQLDIEM_ex";
@@ -116,11 +119,14 @@
             // 
             // btnQLDIEM_Collapse
             // 
-            this.btnQLDIEM_Collapse.Image = global::QLSV_GiaoDien.Properties.Resources.button;
-            this.btnQLDIEM_Collapse.Location = new System.Drawing.Point(-1, 4);
+            this.btnQLDIEM_Collapse.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.button;
+            this.btnQLDIEM_Collapse.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnQLDIEM_Collapse.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnQLDIEM_Collapse.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnQLDIEM_Collapse.Location = new System.Drawing.Point(0, 4);
             this.btnQLDIEM_Collapse.Margin = new System.Windows.Forms.Padding(4);
             this.btnQLDIEM_Collapse.Name = "btnQLDIEM_Collapse";
-            this.btnQLDIEM_Collapse.Size = new System.Drawing.Size(281, 42);
+            this.btnQLDIEM_Collapse.Size = new System.Drawing.Size(281, 43);
             this.btnQLDIEM_Collapse.TabIndex = 0;
             this.btnQLDIEM_Collapse.Text = "Báo Cáo";
             this.btnQLDIEM_Collapse.UseVisualStyleBackColor = true;
@@ -141,38 +147,47 @@
             // lnkXuatSV
             // 
             this.lnkXuatSV.AutoSize = true;
+            this.lnkXuatSV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lnkXuatSV.Location = new System.Drawing.Point(21, 62);
             this.lnkXuatSV.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lnkXuatSV.Name = "lnkXuatSV";
-            this.lnkXuatSV.Size = new System.Drawing.Size(175, 17);
+            this.lnkXuatSV.Size = new System.Drawing.Size(180, 18);
             this.lnkXuatSV.TabIndex = 9;
             this.lnkXuatSV.TabStop = true;
             this.lnkXuatSV.Text = "Xuất Danh Sách Sinh Viên";
             this.lnkXuatSV.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkXuatSV_LinkClicked);
+            this.lnkXuatSV.MouseLeave += new System.EventHandler(this.lnkXuatSV_MouseLeave);
+            this.lnkXuatSV.MouseHover += new System.EventHandler(this.lnkXuatSV_MouseHover);
             // 
             // lnkXuatDSMH
             // 
             this.lnkXuatDSMH.AutoSize = true;
+            this.lnkXuatDSMH.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lnkXuatDSMH.Location = new System.Drawing.Point(20, 23);
             this.lnkXuatDSMH.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lnkXuatDSMH.Name = "lnkXuatDSMH";
-            this.lnkXuatDSMH.Size = new System.Drawing.Size(171, 17);
+            this.lnkXuatDSMH.Size = new System.Drawing.Size(181, 18);
             this.lnkXuatDSMH.TabIndex = 8;
             this.lnkXuatDSMH.TabStop = true;
             this.lnkXuatDSMH.Text = "Xuất Danh Sách Môn Học";
             this.lnkXuatDSMH.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkXuatDSMH_LinkClicked);
+            this.lnkXuatDSMH.MouseLeave += new System.EventHandler(this.lnkXuatDSMH_MouseLeave);
+            this.lnkXuatDSMH.MouseHover += new System.EventHandler(this.lnkXuatDSMH_MouseHover);
             // 
             // lnkXemDiem
             // 
             this.lnkXemDiem.AutoSize = true;
+            this.lnkXemDiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lnkXemDiem.Location = new System.Drawing.Point(21, 97);
             this.lnkXemDiem.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lnkXemDiem.Name = "lnkXemDiem";
-            this.lnkXemDiem.Size = new System.Drawing.Size(72, 17);
+            this.lnkXemDiem.Size = new System.Drawing.Size(78, 18);
             this.lnkXemDiem.TabIndex = 7;
             this.lnkXemDiem.TabStop = true;
             this.lnkXemDiem.Text = "Xem Điểm";
             this.lnkXemDiem.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkXemDiem_LinkClicked);
+            this.lnkXemDiem.MouseLeave += new System.EventHandler(this.lnkXemDiem_MouseLeave);
+            this.lnkXemDiem.MouseHover += new System.EventHandler(this.lnkXemDiem_MouseHover);
             // 
             // pan_QLSV
             // 
@@ -187,7 +202,10 @@
             // 
             // btnQLSV_collapse
             // 
-            this.btnQLSV_collapse.Image = global::QLSV_GiaoDien.Properties.Resources.button;
+            this.btnQLSV_collapse.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.button;
+            this.btnQLSV_collapse.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnQLSV_collapse.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnQLSV_collapse.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnQLSV_collapse.Location = new System.Drawing.Point(0, 4);
             this.btnQLSV_collapse.Margin = new System.Windows.Forms.Padding(4);
             this.btnQLSV_collapse.Name = "btnQLSV_collapse";
@@ -199,8 +217,11 @@
             // 
             // btnQLSV_ex
             // 
-            this.btnQLSV_ex.Image = global::QLSV_GiaoDien.Properties.Resources.button;
-            this.btnQLSV_ex.Location = new System.Drawing.Point(-1, 4);
+            this.btnQLSV_ex.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.button;
+            this.btnQLSV_ex.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnQLSV_ex.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnQLSV_ex.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnQLSV_ex.Location = new System.Drawing.Point(0, 4);
             this.btnQLSV_ex.Margin = new System.Windows.Forms.Padding(4);
             this.btnQLSV_ex.Name = "btnQLSV_ex";
             this.btnQLSV_ex.Size = new System.Drawing.Size(281, 42);
@@ -222,7 +243,7 @@
             // 
             // lnkDangXuat
             // 
-            this.lnkDangXuat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkDangXuat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lnkDangXuat.Location = new System.Drawing.Point(20, 54);
             this.lnkDangXuat.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lnkDangXuat.Name = "lnkDangXuat";
@@ -232,10 +253,12 @@
             this.lnkDangXuat.Text = "Đăng Xuất";
             this.lnkDangXuat.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lnkDangXuat.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkDangXuat_LinkClicked);
+            this.lnkDangXuat.MouseLeave += new System.EventHandler(this.lnkDangXuat_MouseLeave);
+            this.lnkDangXuat.MouseHover += new System.EventHandler(this.lnkDangXuat_MouseHover);
             // 
             // lnkTaiKhoan
             // 
-            this.lnkTaiKhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkTaiKhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lnkTaiKhoan.Location = new System.Drawing.Point(20, 12);
             this.lnkTaiKhoan.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lnkTaiKhoan.Name = "lnkTaiKhoan";
@@ -261,11 +284,14 @@
             // 
             // btnQLMH_ex
             // 
-            this.btnQLMH_ex.Image = global::QLSV_GiaoDien.Properties.Resources.button;
-            this.btnQLMH_ex.Location = new System.Drawing.Point(0, 4);
+            this.btnQLMH_ex.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.button;
+            this.btnQLMH_ex.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnQLMH_ex.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnQLMH_ex.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnQLMH_ex.Location = new System.Drawing.Point(1, 4);
             this.btnQLMH_ex.Margin = new System.Windows.Forms.Padding(4);
             this.btnQLMH_ex.Name = "btnQLMH_ex";
-            this.btnQLMH_ex.Size = new System.Drawing.Size(280, 43);
+            this.btnQLMH_ex.Size = new System.Drawing.Size(280, 42);
             this.btnQLMH_ex.TabIndex = 1;
             this.btnQLMH_ex.Text = "Quản lý chung";
             this.btnQLMH_ex.UseVisualStyleBackColor = true;
@@ -273,7 +299,10 @@
             // 
             // btnQLMH_Collapse
             // 
-            this.btnQLMH_Collapse.Image = global::QLSV_GiaoDien.Properties.Resources.button;
+            this.btnQLMH_Collapse.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.button;
+            this.btnQLMH_Collapse.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnQLMH_Collapse.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnQLMH_Collapse.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnQLMH_Collapse.Location = new System.Drawing.Point(-1, 4);
             this.btnQLMH_Collapse.Margin = new System.Windows.Forms.Padding(4);
             this.btnQLMH_Collapse.Name = "btnQLMH_Collapse";
@@ -298,38 +327,47 @@
             // lnkNhapDiem
             // 
             this.lnkNhapDiem.AutoSize = true;
+            this.lnkNhapDiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lnkNhapDiem.Location = new System.Drawing.Point(20, 86);
             this.lnkNhapDiem.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lnkNhapDiem.Name = "lnkNhapDiem";
-            this.lnkNhapDiem.Size = new System.Drawing.Size(76, 17);
+            this.lnkNhapDiem.Size = new System.Drawing.Size(79, 18);
             this.lnkNhapDiem.TabIndex = 8;
             this.lnkNhapDiem.TabStop = true;
             this.lnkNhapDiem.Text = "Nhập điểm";
             this.lnkNhapDiem.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkNhapDiem_LinkClicked);
+            this.lnkNhapDiem.MouseLeave += new System.EventHandler(this.lnkNhapDiem_MouseLeave);
+            this.lnkNhapDiem.MouseHover += new System.EventHandler(this.lnkNhapDiem_MouseHover);
             // 
             // lnkGV_K_e
             // 
             this.lnkGV_K_e.AutoSize = true;
+            this.lnkGV_K_e.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lnkGV_K_e.Location = new System.Drawing.Point(20, 49);
             this.lnkGV_K_e.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lnkGV_K_e.Name = "lnkGV_K_e";
-            this.lnkGV_K_e.Size = new System.Drawing.Size(220, 17);
+            this.lnkGV_K_e.Size = new System.Drawing.Size(230, 18);
             this.lnkGV_K_e.TabIndex = 4;
             this.lnkGV_K_e.TabStop = true;
             this.lnkGV_K_e.Text = "Giáo viên - Khoa - Khóa Học - Hệ";
             this.lnkGV_K_e.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkGV_K_e_LinkClicked);
+            this.lnkGV_K_e.MouseLeave += new System.EventHandler(this.lnkGV_K_e_MouseLeave);
+            this.lnkGV_K_e.MouseHover += new System.EventHandler(this.lnkGV_K_e_MouseHover);
             // 
             // lnk_QuanlySv_lop_mh
             // 
             this.lnk_QuanlySv_lop_mh.AutoSize = true;
+            this.lnk_QuanlySv_lop_mh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lnk_QuanlySv_lop_mh.Location = new System.Drawing.Point(20, 16);
             this.lnk_QuanlySv_lop_mh.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lnk_QuanlySv_lop_mh.Name = "lnk_QuanlySv_lop_mh";
-            this.lnk_QuanlySv_lop_mh.Size = new System.Drawing.Size(225, 17);
+            this.lnk_QuanlySv_lop_mh.Size = new System.Drawing.Size(233, 18);
             this.lnk_QuanlySv_lop_mh.TabIndex = 0;
             this.lnk_QuanlySv_lop_mh.TabStop = true;
             this.lnk_QuanlySv_lop_mh.Text = "Sinh viên - Lớp - Môn học - Ngành";
             this.lnk_QuanlySv_lop_mh.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnk_QuanlySv_lop_mh_LinkClicked);
+            this.lnk_QuanlySv_lop_mh.MouseLeave += new System.EventHandler(this.lnk_QuanlySv_lop_mh_MouseLeave);
+            this.lnk_QuanlySv_lop_mh.MouseHover += new System.EventHandler(this.lnk_QuanlySv_lop_mh_MouseHover);
             // 
             // lblTitle
             // 
@@ -481,7 +519,7 @@
             // 
             // pan_Main
             // 
-            this.pan_Main.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources._24172808_1774679236170426_7716303081660080239_o;
+            this.pan_Main.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.school;
             this.pan_Main.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pan_Main.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pan_Main.Location = new System.Drawing.Point(340, 62);

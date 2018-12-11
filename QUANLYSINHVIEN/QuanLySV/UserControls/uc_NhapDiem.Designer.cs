@@ -95,7 +95,6 @@
             // 
             // btnTim
             // 
-            this.btnTim.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.Search;
             this.btnTim.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnTim.Location = new System.Drawing.Point(421, 26);
             this.btnTim.Margin = new System.Windows.Forms.Padding(4);

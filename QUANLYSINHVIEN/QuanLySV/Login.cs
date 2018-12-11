@@ -22,21 +22,16 @@ namespace QLSV_GiaoDien
         public delegate void EnableGroupbox(bool kq);
         public EnableGroupbox setGroupbox;
         private void btnLogin_Click(object sender, EventArgs e)
-        {
-           
-         
+        {       
             xl_user.USER = txtUser.Text;
             xl_user.PASS = txtPass.Text;
-
-
             if (xl_user.Login() == true  )
             {
-                
-                setGroupbox(true);
                 this.Close();
+                setGroupbox(true);
+                
             }
         }
-
         private void btnCancel_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -45,7 +40,6 @@ namespace QLSV_GiaoDien
         private void Login_Load(object sender, EventArgs e)
         {
             txtUser.Focus();
-           
         }
 
 

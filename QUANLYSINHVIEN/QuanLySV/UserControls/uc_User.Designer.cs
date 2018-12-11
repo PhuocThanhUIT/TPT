@@ -108,8 +108,6 @@
             // 
             // btnSua
             // 
-            this.btnSua.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.refresh_48;
-            this.btnSua.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnSua.Location = new System.Drawing.Point(636, 517);
             this.btnSua.Margin = new System.Windows.Forms.Padding(4);
             this.btnSua.Name = "btnSua";
@@ -186,7 +184,6 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.exit;
             this.btnThoat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnThoat.Location = new System.Drawing.Point(763, 517);
             this.btnThoat.Margin = new System.Windows.Forms.Padding(4);
@@ -308,7 +305,6 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.delete1;
             this.btnXoa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnXoa.Location = new System.Drawing.Point(763, 455);
             this.btnXoa.Margin = new System.Windows.Forms.Padding(4);
@@ -320,7 +316,6 @@
             // 
             // btnThem
             // 
-            this.btnThem.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.add1;
             this.btnThem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnThem.Location = new System.Drawing.Point(636, 455);
             this.btnThem.Margin = new System.Windows.Forms.Padding(4);
@@ -332,7 +327,6 @@
             // 
             // btnRefresh
             // 
-            this.btnRefresh.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.refresh_48;
             this.btnRefresh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnRefresh.Location = new System.Drawing.Point(732, 20);
             this.btnRefresh.Margin = new System.Windows.Forms.Padding(0);
@@ -344,7 +338,6 @@
             // 
             // btnTim
             // 
-            this.btnTim.BackgroundImage = global::QLSV_GiaoDien.Properties.Resources.Search;
             this.btnTim.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnTim.Location = new System.Drawing.Point(609, 20);
             this.btnTim.Margin = new System.Windows.Forms.Padding(4);

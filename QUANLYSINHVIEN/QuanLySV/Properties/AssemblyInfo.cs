@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("Phần mềm quản lý sinh viên")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Trường Đại Học Công Nghệ Thông Tin Tp.HCM")]
-[assembly: AssemblyProduct("Version 1.0 ")]
+[assembly: AssemblyProduct("Quản Lý Sinh Viên")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("https://github.com/ThienUIT")]
 [assembly: AssemblyCulture("")]

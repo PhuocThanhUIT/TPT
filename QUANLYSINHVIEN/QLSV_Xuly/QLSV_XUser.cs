@@ -157,7 +157,7 @@ namespace QLSV_Xuly
         public bool Login()
         {
             bool kq = false;
-            if (qlsv_dUser.CheckUser(USER,PASS) == true)
+            if (qlsv_dUser.CheckUser(USER,MahoaPass(PASS)) == true)
             {
                 MessageBox.Show("Đăng nhập thành công");
                 kq = true;
